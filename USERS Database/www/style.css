@@ -1,0 +1,14 @@
+﻿#box
+{
+	border: 1px solid Skyblue;
+	width:	100px;
+	height: 100px;
+	font-size:70px;
+	text-align: center;
+}
+#btn
+{
+	width: 260px;
+	font-family: 'Comic Sans MS';
+	font-size: 50px;
+}

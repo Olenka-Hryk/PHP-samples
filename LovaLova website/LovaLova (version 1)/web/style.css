@@ -1,0 +1,105 @@
+aside { 
+   	/* на блоці будуть міститися два поля (логін, пароль) з пропозицією входу у власний кабінет */ 
+    background: rgba(199, 21, 133, 0.9); /*Колір фону */
+    padding: 10px; /* Поля кругом */
+    width: 200px;  /* Ширина */
+    float: right; /*Блоки вирівнюються погоризонталі*/
+    border-radius: 10px;
+   }
+
+   article { 
+   	     /*текст сторінки*/
+   	     background-color: rgba(255, 192, 203,0.6);
+   	     margin: 15px;
+   		 margin-right: 100px;
+    	 display: block; /* Блочный элемент */
+   }  
+
+	header {
+		    /*'голова' сторінки*/
+			margin: 0 auto; /*Відступи*/
+			width: 90%; /*ширина*/
+			background-color: rgba(255, 192, 203,0.8); /*колір фону (0.8-прозорість)*/
+			border: 1px solid pink; /*тінь*/
+			box-shadow: 2px 4px 50px Hotpink;
+			border-radius: 10px;
+		}
+
+		h1 { 
+			/*Надпис: Інтернет магазин Lova-Lova*/
+			font-style: italic; /*надпис-курсив*/
+			text-align: center; /*Вирівнювання по центрі */
+		}
+
+		h2 {
+			/*новинки*/
+			color: rgb(205, 92, 92, 0.9);
+			text-align: center;		
+  	
+		}
+
+		h3 { 
+			/*текст новинок*/
+			color: rgb(205, 92, 92, 0.9);
+			text-align: center;
+		}
+
+		h4 {
+			font-style: italic; /*надпис-курсив*/
+            margin: 0 15px 0 20px;
+		}
+
+	 .button {
+	 	/* задаємо стиль кнопки*/
+    	 background: MediumVioletRed; 
+   	     color: white;  
+   		 font-size: 15pt; 
+        }
+
+      .photo {
+      	/*параметри фото-новинок*/
+   		  width: 350px; /* Ширина */
+   		  background-color: rgba(255, 192, 203,0.6);
+    	  margin: 0 10px 10px 50px; /*Відступи*/
+   		  padding: 10px 0; /*Поля згори і знизу */
+          text-align: center; /*Вирівнювання поцентру*/
+          display: inline-block; /* Строчно-блочный элемент */
+        }
+
+		nav { 
+			/*вкладки-вибори продуктів (н:Парфумерія, Мейкап..)*/
+			margin: 15px;
+			width: 90%;
+			font-color: black;
+			text-align: center;
+			background-color: rgba(255, 192, 203,0.9);
+		}
+		
+		footer {  
+		   /*Підвал*/
+		   background-color: rgba(199, 21, 133,0.7);
+		}
+		section {
+			background: url(pic1.jpg) 50% 0  no-repeat;
+		}
+
+		input {
+               border-radius: 5px;
+               font-family: "Roboto";
+        }
+  #comments_block {
+               overflow: auto;
+               width: 1000px;
+               height: 500px;
+        }
+     body{
+        scrollbar-face-color:#3D4AF0;
+        scrollbar-highlight-color:#7B8DF9;
+        scrollbar-3dlight-color:#7B8DF9;
+        scrollbar-darkshadow-color:#2109D6;
+        scrollbar-shadow-color:#2109D6;
+        scrollbar-arrow-color:#7B8DF9;
+        scrollbar-track-color:#7B8DF9;
+        }
+
+       

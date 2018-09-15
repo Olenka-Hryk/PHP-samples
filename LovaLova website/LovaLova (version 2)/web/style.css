@@ -1,0 +1,344 @@
+/*aside { 
+   	/* на блоці будуть міститися два поля (логін, пароль) з пропозицією входу у власний кабінет */ 
+    background: rgba(199, 21, 133, 0.9); Колір фону 
+    padding: 10px; /* Поля кругом */
+    width: 200px;  /* Ширина */
+    float: right; /*Блоки вирівнюються погоризонталі*/
+    border-radius: 10px;
+   }*/
+
+   article { 
+   	     /*текст сторінки*/
+   	     background-color: rgba(255, 192, 203,0.6);
+   	     margin: 15px;
+   		 margin-right: 100px;
+    	 display: block; /* Блочный элемент */
+   }  
+
+	header {
+		    /*'голова' сторінки*/
+			margin: 30px 5px 16px 50px; /*Відступи*/
+			width: 90%; /*ширина*/
+			background-color: rgba(255, 192, 203,0.8); /*колір фону (0.8-прозорість)*/
+			border: 1px solid pink; /*тінь*/
+			box-shadow: 2px 4px 50px Hotpink;
+			border-radius: 10px;
+		}
+
+		h1 { 
+			/*Надпис: Інтернет магазин Lova-Lova*/
+			font-style: italic; /*надпис-курсив*/
+			text-align: center; /*Вирівнювання по центрі */
+		}
+
+		h2 {
+			/*новинки*/
+			color: rgb(205, 92, 92, 0.9);
+			text-align: center;		
+		}
+
+		h3 { 
+			/*текст новинок*/
+			color: rgb(205, 92, 92, 0.9);
+			text-align: center;
+		}
+
+		h4 {
+			font-style: italic; /*надпис-курсив*/
+            margin: 0 15px 0 20px;
+		}
+
+	 .button {
+	 	/* задаємо стиль кнопки*/
+    	 background: MediumVioletRed; 
+   	     color: white;  
+   		 font-size: 15pt;
+        }
+
+     .button1 {
+	 	/* задаємо стиль кнопки1*/
+    	 background: MediumVioletRed; 
+   	     color: white;  
+   		 font-size: 25pt; 
+   		 margin: 0 100px 10px 550px; /*Відступи*/ 
+        }
+      .photo {
+      	/*параметри фото-новинок*/
+   		  width: 350px; /* Ширина */
+   		  background-color: rgba(255, 192, 203,0.6);
+    	  margin: 0 10px 10px 50px; /*Відступи*/
+   		  padding: 10px 0; /*Поля згори і знизу */
+          text-align: center; /*Вирівнювання поцентру*/
+          display: inline-block; /* Строчно-блочный элемент */
+        }
+
+		/*nav { 
+			/*вкладки-вибори продуктів (н:Парфумерія, Мейкап..)*/
+			margin: 15px;
+			width: 90%;
+			font-color: black;
+			text-align: center;
+			background-color: rgba(255, 192, 203,0.9);
+		}*/
+		
+		footer {  
+		   /*Підвал*/
+		   background-color: rgba(199, 21, 133,0.7);
+		}
+		section {
+			background: url(pic1.jpg) 50% 0  no-repeat;
+		}
+
+		input {
+               border-radius: 5px;
+               font-family: "Roboto";
+        }
+  #comments_block {
+               overflow: auto;
+               width: 1000px;
+               height: 500px;
+        }
+     body{
+        scrollbar-face-color:#3D4AF0;
+        scrollbar-highlight-color:#7B8DF9;
+        scrollbar-3dlight-color:#7B8DF9;
+        scrollbar-darkshadow-color:#2109D6;
+        scrollbar-shadow-color:#2109D6;
+        scrollbar-arrow-color:#7B8DF9;
+        scrollbar-track-color:#7B8DF9;
+        overflow-x: hidden;
+       font-family: Raleway, Arial;
+
+        }
+/*..........................................вхід*/
+   #wrapper{
+		width:70%;
+		margin:0 auto;
+		background:Orchid;
+		position:relative;
+		top:-8px;
+	}
+
+    #header{
+    	border-top:6px solid DarkOliveGreen	;
+		margin:0;
+	}
+
+    #content{
+    	width:50%;
+    }
+
+    #login {
+    	width: 190px;
+		position: absolute;
+		left: 740px;
+		top: 6px;
+		z-index: 100;
+	}
+
+	#open {
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:18px;
+		font-weight:600;
+		text-align:center;
+		margin: 0;
+		cursor: pointer;
+		background:DarkSeaGreen;
+		color: Black;
+		padding: 5px 0 2px 0;
+	}
+
+	#open:hover {
+		color: Black;
+		background-color: DarkSeaGreen;
+	}
+
+	#login form {
+		padding: 10px 10px 10px 10px;
+		display: none;	
+		background-color: MistyRose;
+	}
+
+	#login label {
+		display: inline-block;
+		width: 100px;
+		text-align:left;
+		margin: 0 15px 0 0;
+		color: rgb(58,80,123);
+	}
+
+	#login input {font-size: 14px;}
+	#login #button{margin-left: 5px;}
+ /*................................параметри випадаючого меню*/
+    nav{
+ 		 margin: 30px 90px 10px 50px;
+  		 padding: 0;
+  		 border: 0;
+  		font-size: 100%;
+  		font: inherit;
+  		vertical-align: baseline;
+  		outline: none;
+  		-webkit-font-smoothing: antialiased;
+  		-webkit-text-size-adjust: 100%;
+  		-webkit-box-sizing: border-box;
+  		-moz-box-sizing: border-box;
+  		box-sizing: border-box;
+  		display: block;
+	}
+
+    html { height: 101%; }
+    ul { list-style: none; }
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+    strong { font-weight: bold; }
+    table { border-collapse: collapse; border-spacing: 0; }
+    img { border: 0; max-width: 100%; }
+#ddmenu {
+  display: block;
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0 8px;
+  background: LavenderBlush;
+  border-radius: 6px;
+  border: 1px solid IndianRed;
+  box-shadow: 0 1px 1px PaleVioletRed;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  color: PaleVioletRed;
+}
+
+#ddmenu li { 
+	display: block;
+    position: relative; 
+    float: left;
+    font-size: 1.50em; 
+    text-shadow: 1px 1px 0 Maroon;
+    border-right: 1px solid PaleVioletRed; 
+ }
+
+#ddmenu li a {
+  display: block;
+  float: left;
+  padding: 0 10px;
+  line-height: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  color: PaleVioletRed;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#ddmenu li:hover > a { color: black; background: Crimson; }
+
+#ddmenu ul {
+  position: absolute;
+  top: 80px;
+  width: 250px;
+  background: #fff;
+  display: none;
+  margin: center;
+  padding: 7px 0;
+  list-style: none;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#ddmenu ul:after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 8px;
+  border-width: 0 8px 8px 8px;
+  border-style: solid;
+  border-color: black transparent; 
+}
+
+#ddmenu ul:before {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 100%;
+  left: 4px;
+  border-width: 0 10px 10px 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1) transparent;  
+}
+
+#ddmenu ul li { 
+  display: block; 
+  width: 100%; 
+  font-size: 0.9em; 
+  text-shadow: 1px 1px 0 #fff;
+}
+
+#ddmenu ul li a {
+  display: block;
+  width: 100%;
+  padding: 6px 7px;
+  line-height: 1.4em;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+#ddmenu ul li a:hover {
+  background: MistyRose;
+}
+
+/*//........встановлюємо параметри лупи*/
+.example{
+	width:1000px;
+	margin:center;
+	padding:1px;
+    }
+.example img { 
+	background-color: PapayaWhip;
+	border: 1px solid #dedede;
+	 padding: 5px;
+	}
+
+/*//......................галерея фото*/
+   .slider {
+   		position: relative;
+ 		left: -320px;
+		 margin-left: 50%;
+    }
+	ul2 {
+		 white-space: nowrap;
+ 		 overflow: visible;
+ 		 position: relative;
+ 		 left: 0;
+		 transition: left 1s;
+	}
+	li2 {
+ 		 display: inline-block;
+ 		 margin: 20px;
+ 		 cursor: pointer;
+ 		 height: 422px;
+	}
+	li2 img {
+ 		 border: 10px solid #FFF;
+ 		 box-shadow: 0 3px 6px 0 #999;
+		 display: block;
+		 height: 300px;
+		 opacity: 0.6;
+		 margin-top: 50px;
+		 transition: height 1s, opacity 0.5s, margin-top 1s;
+	}
+ 
+	li2:hover img {
+ 		box-shadow: 0 3px 6px 0 #333;
+	}
+ 
+	li2.active img {
+ 		margin-top: 0;
+ 		height: 400px;
+ 		opacity: 1;
+	}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.LovaLova">
+<head>
+
+	<meta charset="utf-8">
+	<title> ✿ Інтернет магазин Lova-Lova </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body scroll="yes">
+  <body onload = 'animateText("dynamic-text", "Цього місяця проводиться акція - #Покупкалютого, поспішіть взяти участь, адже термін дії до 05.03.2016", 0);'>
+  <span id = 'dynamic-text'></span>
+  </body>
+
+   <script src="script.js"></script>
+   <body background="tlo.jpg" > 
+   <img src="emblema.jpg" align="left" width="200" height="200" vspace="5" hspace="20">
+
+  <header>
+    
+   <font size="5" face="SEGOE PRINT">
+   	  <h1 style="color: MediumVioletRed;"> ✿ Інтернет магазин Lova-Lova </h1>
+   </font>
+
+   <form>
+  	 <p><input type="search" name="q" placeholder="Пошук по сайту"> 
+   	 <input type="submit" value="Знайти" ></p>
+   </form>
+
+   <aside> 
+   		<font size="0.5" face="SEGOE PRINT">
+   		<h2 style="color: Black;"> Вхід до кабінету: </h1>
+   		</font>
+  		<form action="handler.php">
+   		<p><strong>Логин:</strong> 
+    	<input maxlength="25" size="15" name="login"></p>
+   		<p><strong>Пароль:</strong> 
+    	<input type="password" maxlength="25" size="14" name="password"></p>
+    	<input type="submit" value="Вхід">
+    	<input type="submit" value="Реєстрація">
+   		 </form>
+   </aside>
+
+   <nav>
+     <font size="4" face="Comic Sans MS">
+   		<a href="1.html">	Парфумерія</a>
+   		<a href="2.html">	Мейкап</a> 
+       	<a href="3.html">	Нігті</a>  
+       	<a href="4.html">	Волосся</a>
+       	<a href="5.html">	Лице</a>
+       	<a href="6.html">	Тіло</a>
+       	<a href="7.html">	Аксесуари</a>
+        <a href="8.html">   Health&Organic</a>
+        <a href="9.html">	Акції</a>
+        <a href="10.html">	Подарунки</a>
+      </font>
+    </nav>
+
+  </header>
+
+  <section>
+   <img src="pic1.png" width="1000" height="300" vspace="5" hspace="20" id="image" onclick="changeImageActsia()">
+  	<h2> Новинки</h2>
+  	 <img src="новинки1.jpg" width="450" height="400" align="left" vspace="5" hspace="20">
+  	 <img src="akva.jpg" width="700" height="400" align="left" vspace="5" hspace="20">
+
+  	<article>
+  		<h3> Яскраві щітки Tangle Teezer чекають на Вас!)) Дуже зручні та практичні. Після них Ви не подивитесь на інші щітки !) В наявності є різні принти, і також Tangle Teezer angle та Salon Elite!
+  		Ціна: 220 грн</h3>
+  		<input type="button" class="button" value="Придбати" >
+  	</article>
+ </section>
+
+     <div id="comments_block">
+    <div class="photo">
+        <p><img src="new1.png" width="350" height="250" alt="" onclick="changeSizeImage(this)"/></p>
+        <p class="caption">Новинка! Нові матові блиски від Nyx BUTTER GLOSS!)
+        Ціна: 230 грн</p>
+        <input type="button" class="button" value="Придбати" >
+     </div>
+
+    <div class="photo">
+        <p><img src="new3.png" width="300" height="250" alt="" onclick="changeSizeImage(this)"/></p>
+        <p class="caption">Палетка тіней від Revolution, які є прекрасним аналогом тіней від марки Naked!) Ціна: 240 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+
+    <div class="photo">
+        <p><img src="new2.png" width="300" height="250" alt="" onclick="changeSizeImage(this)"/></p>
+        <p class="caption">Легендарні бальзами EOS створені саме для Вас! Ціна: 120 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+
+    <div class="photo">
+        <p><img src="new4.png" width="300" height="250" alt="" onclick="changeSizeImage(this)" /></p>
+        <p class="caption">Олійка для волосся CHI з арганою + масло морінги  для омлодження та зволоження тьмяного і пошкодженого волосся. Ціна: 15мл -100 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+     
+     <div class="photo">
+        <p><img src="new5.png" width="300" height="250" alt="" onclick="changeSizeImage(this)" /></p>
+        <p class="caption"> Гель Алоє від корейської фірми Holika Holika!Дуже добре зволожує, швидко заспокоює подразнення! Ціна: 290 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+
+     <div class="photo">
+        <p><img src="new6.png" width="300" height="270" alt="" onclick="changeSizeImage(this)"/></p>
+        <p class="caption">Матові помади-олівці від американської фірми E.L.F ! В наявності різні кольори. Ціна: 130 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+</div>
+ <footer>
+  	<h2> Андрущакевич Олена</h2>
+  	<h4>Студентка групи ПІ-22</h4>
+  	<h4>*</h4>
+  	<h4>Лабораторна робота № 1</h4>
+  	<h4>На тему: “ Форма як елемент зв’язку з сервером”</h4>
+  	<h4>З дисципліни: “Програмування в Інтернет"</h4>
+  	<h4>*</h4>
+  	<h4>Контактні дані:</h4>
+  	<h4>(моб.) +380686294838</h4>
+  	<h4>(e-mail) olena.andrushchakevych@gmail.com</h4>
+  	<h4>*</h4>
+ </footer>
+
+</body>
+</html>
+

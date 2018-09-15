@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html xmlns="http://www.LovaLova">
+<head>
+
+	<meta charset="utf-8">
+	<title> ✿ Інтернет магазин Lova-Lova </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <script type='text/javascript' src='jquery-2.2.2.js'></script>
+
+    <!-- Посилання на ядро бібліотеки jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+ 
+    <!-- Потім слідують jQuery плагіни -->
+    <!-- <script src="greensock/TweenMax.min.js"></script> -->
+ 
+    <!-- Свій код у зовнішньому файлі в кінці -->
+    <script src="script.js"></script>
+
+</head>
+
+
+<body scroll="yes">
+  <!-- ...........вхід в свій кабінет .................-->
+  <div id="wrapper">
+      <div id="header">   
+        </div>
+    <div id="login">
+      <p id="open">Вхід</p>
+       <form>
+          <p><label for="username">Ім'я:</label>
+          <input type="text" name="username" id="username"></p>
+          <p><label for="password">Пароль: </label>
+          <input type="text" name="password" id="password"></p>
+          <p><input type="submit" name="button" id="button" value="Вхід" ></p>
+          <p><input type="submit" name="button" id="button" value="Реєстрація" ></p>
+        </form>
+    </div>
+   <div id="content">
+   </div> 
+  </div>
+      <!-- <body onload = 'animateText("dynamic-text", "Цього місяця проводиться акція - #Покупкалютого, поспішіть взяти участь, адже термін дії до 05.03.2016", 0);'>
+      <span id = 'dynamic-text'></span>
+      </body> -->
+ 
+     <body background="tlo.jpg" > 
+      <img src="emblema.jpg" align="left" width="150" height="150" vspace="50" hspace="70">
+
+  <header>
+   <font size="5" face="SEGOE PRINT">
+   	  <h1 style="color: MediumVioletRed;"> ✿ Інтернет магазин Lova-Lova </h1>
+   </font>
+
+   <form>
+  	 <p><input type="search" name="q" placeholder="Пошук по сайту"> 
+   	 <input type="submit" value="Знайти" ></p>
+   </form>
+
+   <!-- <aside> 
+   		<font size="0.5" face="SEGOE PRINT">
+   		<h2 style="color: Black;"> Вхід до кабінету: </h1>
+   		</font>
+  		<form action="handler.php">
+   		<p><strong>Логин:</strong> 
+    	<input maxlength="25" size="15" name="login"></p>
+   		<p><strong>Пароль:</strong> 
+    	<input type="password" maxlength="25" size="14" name="password"></p>
+    	<input type="submit" value="Вхід">
+    	<input type="submit" value="Реєстрація">
+   		 </form>
+   </aside> -->
+   <!-- <nav>
+     <font size="4" face="Comic Sans MS">
+   		<a href="1.html">	Парфумерія</a>
+   		<a href="2.html">	Мейкап</a> 
+       	<a href="3.html">	Нігті</a>  
+       	<a href="4.html">	Волосся</a>
+       	<a href="5.html">	Лице</a>
+       	<a href="6.html">	Тіло</a>
+       	<a href="7.html">	Аксесуари</a>
+        <a href="8.html">   Health&Organic</a>
+        <a href="9.html">	Акції</a>
+        <a href="10.html">	Подарунки</a>
+      </font>
+    </nav> -->
+ 
+  </header>
+<!-- ...........створюємо випадаюче меню  ............-->
+  <nav>
+      <ul id="ddmenu">
+        <li><a href="#">Парфумерія</a>
+          <ul>
+            <li><a href="#">Жіноча парфумерія</a></li>
+            <li><a href="#">Чоловіча парфумерія</a></li>
+            <li><a href="#">Новинки</a></li>
+            <li><a href="#">Розпродаж!</a></li>
+            <li><a href="#">Набори</a></li>
+            <li><a href="#">Мініатюри</a></li>
+            <li><a href="#">Пробники</a></li>
+            <li><a href="#">Тестери</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Мейкап</a>
+          <ul>
+            <li><a href="#">Очі</a></li>
+            <li><a href="#">Обличчя</a></li>
+            <li><a href="#">Губи</a></li>
+            <li><a href="#">Демакіяж</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Нігті</a>
+          <ul>
+            <li><a href="#">Гель для нігтів</a></li>
+            <li><a href="#">Праймер</a></li>
+            <li><a href="#">Гель-лаки</a></li>
+            <li><a href="#">Основи під лаки</a></li>
+            <li><a href="#">Закріплювачі</a></li>
+            <li><a href="#">Рідина для зняття лаку</a></li>
+            <li><a href="#">Догляд за кутикулою</a></li>
+            <li><a href="#">Декор нігтів</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Волосся</a>
+          <ul>
+            <li><a href="#">Шампуні</a></li>
+            <li><a href="#">Ополіскувачі</a></li>
+            <li><a href="#">Кондиціонери</a></li>
+            <li><a href="#">Маски</a></li>
+            <li><a href="#">Скраби та пілінги</a></li>
+            <li><a href="#">Лосьйони</a></li>
+            <li><a href="#">Масла</a></li>
+            <li><a href="#">Флюїди</a></li>
+          </ul>
+        <li><a href="#">Лице</a>
+          <ul>
+            <li><a href="#">Крем</a></li>
+            <li><a href="#">Маски</a></li>
+            <li><a href="#">Еліксири</a></li>
+            <li><a href="#">Догляд за очима</a></li>
+            <li><a href="#">Догляд за губами</a></li>
+            <li><a href="#">Термальна вода</a></li>
+            <li><a href="#">Очищення</a></li>
+            <li><a href="#">Сироватки</a></li>
+          </ul>
+          <li><a href="#">Тіло і ванна</a>
+          <ul>
+            <li><a href="#">Для ванни та душу</a></li>
+            <li><a href="#">Депіляція</a></li>
+            <li><a href="#">Для тіла</a></li>
+            <li><a href="#">Для рук</a></li>
+            <li><a href="#">Для ніг</a></li>
+            <li><a href="#">Догляд за порожниною рота</a></li>
+            <li><a href="#">Спецзасоби</a></li>
+            <li><a href="#">Захист від сонця</a></li>
+          </ul>
+          <li><a href="#">Чоловікам</a>
+          <ul>
+            <li><a href="#">Догляд за волоссям</a></li>
+            <li><a href="#">Догляд за обличчям і тілом</a></li>
+            <li><a href="#">Дезодоранти</a></li>
+            <li><a href="#">Аксесуари</a></li>
+          </ul>
+          <li><a href="#">Health&Organic</a>
+          <ul>
+            <li><a href="#">Натуральна та органічна косметика</a></li>
+            <li><a href="#">Дієтичні добавки</a></li>
+            <li><a href="#">Лікувальна косметика</a></li>
+          </ul>
+          <li><a href="#">Бренди</a>
+      </nav>
+      <!-- .................................................................... -->
+
+  <section>
+   <img src="pic1.png" align="center" width="1000" height="300" vspace="0" hspace="160" id="image" onclick="changeImageActsia()">
+   <font size="6" face="SEGOE PRINT">
+  	<h2> Новинки</h2>
+    </font>
+    <!-- //..........................лупа -->
+    <script src="jquery.imageLens.js"></script>
+  <div class="example">
+     <div align=center>
+        <img  id="img01" src="cosmetic.jpg" width="1000" height="500" vspace="10" hspace="160">
+     </div>
+  </div>
+
+  <!-- //............................................робимо галерею -->
+  <script src="prefixfree.min.js"></script>
+  <div class="slider">
+     <ul2>
+      <li2 class="active">
+       <img src="1.jpg" />
+      </li2>
+     <li2>
+       <img src="2.jpg" />
+     </li2>
+     <li2>
+       <img src="3.jpg" />
+     </li2>
+     <li2>
+       <img src="4.jpg" />
+     </li2>
+     <li2>
+       <img src="5.jpg" />
+     </li2>
+     <li2>
+       <img src="6.jpg" />
+     </li2>
+     <li2>
+       <img src="7.jpg" />
+     </li2>
+  </ul2>
+ </div>
+  <!-- ....................................................... -->
+
+  	 <!-- <img src="новинки1.jpg" width="450" height="400" align="left" vspace="5" hspace="20">
+  	 <img src="akva.jpg" width="700" height="400" align="left" vspace="5" hspace="20"> -->
+  	<!-- <article>
+  		<h3> Яскраві щітки Tangle Teezer чекають на Вас!)) Дуже зручні та практичні. Після них Ви не подивитесь на інші щітки !) В наявності є різні принти, і також Tangle Teezer angle та Salon Elite!
+  		Ціна: 220 грн</h3>
+  		<input type="button" class="button" value="Придбати" >
+  	</article> -->
+  </section>
+
+ <!-- ..................................................................фото-новинки............... -->
+    <input type="button" class="button1" value="Показати новинки" onclick="showDiv()">
+  <div id="comments_block" align="right">
+     <div class="photo">
+        <p><img src="new1.png" width="350" height="250" alt="" onclick="changeSizeImage(this)"/></p>
+        <p class="caption">Новинка! Нові матові блиски від Nyx BUTTER GLOSS!)
+        Ціна: 230 грн</p>
+        <input type="button" class="button" value="Придбати" >
+     </div>
+
+     <div class="photo">
+        <p><img src="new3.png" width="300" height="250" alt="" onclick="changeSizeImage(this)"/></p>
+        <p class="caption">Палетка тіней від Revolution, які є прекрасним аналогом тіней від марки Naked!) Ціна: 240 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+
+      <div class="photo">
+        <p><img src="new2.png" width="300" height="250" alt="" onclick="changeSizeImage(this)"/></p>
+        <p class="caption">Легендарні бальзами EOS створені саме для Вас! Ціна: 120 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+
+     <div class="photo">
+        <p><img src="new4.png" width="300" height="250" alt="" onclick="changeSizeImage(this)" /></p>
+        <p class="caption">Олійка для волосся CHI з арганою + масло морінги  для омлодження та зволоження тьмяного і пошкодженого волосся. Ціна: 15мл -100 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+     
+     <div class="photo">
+        <p><img src="new5.png" width="300" height="250" alt="" onclick="changeSizeImage(this)" /></p>
+        <p class="caption"> Гель Алоє від корейської фірми Holika Holika!Дуже добре зволожує, швидко заспокоює подразнення! Ціна: 290 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+
+     <div class="photo">
+        <p><img src="new6.png" width="300" height="270" alt="" onclick="changeSizeImage(this)"/></p>
+        <p class="caption">Матові помади-олівці від американської фірми E.L.F ! В наявності різні кольори. Ціна: 130 грн </p>
+        <input type="button" class="button" value="Придбати">
+     </div>
+     <input type="button" class="button1" value="Приховати новинки" onclick="hideDiv()">
+  </div>
+  <!-- ................................................................................................. -->
+  
+  <footer>
+  	 <h2> Андрущакевич Олена</h2>
+  	 <h4>Студентка групи ПІ-22</h4>
+  	 <h4>*</h4>
+  	 <h4>Контактні дані:</h4>
+  	 <h4>(моб.) +380686294838</h4>
+  	 <h4>(e-mail) olena.andrushchakevych@gmail.com</h4>
+  	 <h4>*</h4>
+  </footer>
+</body>
+</html>
