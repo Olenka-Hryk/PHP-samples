@@ -17,14 +17,9 @@ Instructions on available `files` and their `content` with a description of the 
 #### Clone the Repository
  As usual, you get started by cloning the corresponding file to your local machine:
  ```sh
- $ git://github.com/
+ $ git clone https://github.com/OlenkaA/PHP-samples.git
  ```
  
- 
-<a name="markdown-prerequisites"></a>
-#### Prerequisites 
-1. Git
-
 <a name="markdown-header-built-with"></a>
 ## Built With
 Used `technologys` and `tools`:
